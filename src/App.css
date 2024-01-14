@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", sans-serif;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.App {
+  background-image: url("https://img.freepik.com/premium-photo/red-brick-wall-background-grunge-texture-elegant-vintage-christmas-poster-design-wallpaper_741309-245.jpg");
+}
+
+.App h1 {
+  font-family: "Pacifico", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+  text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .App h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .App {
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/fire-66.gif"),
+      url("https://s1.1zoom.me/b5050/86/360127-blackangel_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px 270px, cover;
+    background-position: left 15px bottom 90px, center;
+  }
+}
